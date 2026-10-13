@@ -20,18 +20,17 @@
 - **Surprise test:** remove the `//` in front of the `attendees.push(...)` line near the top of the file to add Neo
 - **Dashboard:** change `let option = 2;` to any number from 1 to 7
 
- * SUBMISSION QUESTIONS
- * ============================================================
- *
+ ## SUBMISSION QUESTIONS
+ 
  * 1.Why did you use && for festival entry?
- *    Because entry has two rules that BOTH have to be true: age >= 18 and hasTicket === true.
- *    && only gives true when every condition is true.If I'd used ||,a 16 year old with a ticket
- *    or an adult with no ticket would get in,because || only needs one condition to pass.
- *
+     Because entry has two rules that BOTH have to be true: age >= 18 and hasTicket === true.
+   && only gives true when every condition is true.If I'd used ||,a 16 year old with a ticket
+    or an adult with no ticket would get in,because || only needs one condition to pass.
+ 
  * 2.Where did you use else if and why?
- *    In Challenge 2 (and dashboard options 2 and 4) to pick the right denial reason,and in Challenge 7 for the voucher tiers.
- *    else if is for choices where only ONE outcome should happen.JavaScript checks each condition from the top
- *    and stops at the first true one.That's why the voucher conditions go from highest to lowest:
+    In Challenge 2 (and dashboard options 2 and 4) to pick the right denial reason,and in Challenge 7 for the voucher tiers.
+   else if is for choices where only ONE outcome should happen.JavaScript checks each condition from the top
+   and stops at the first true one.That's why the voucher conditions go from highest to lowest:
  *    someone who spent R1200 must hit the R200 voucher first,not fall into the R50 one.
  *
  * 3.Why is switch appropriate for the control menu?
